@@ -1,0 +1,68 @@
+html
+{
+	margin: 0;
+	padding: 0;
+}
+
+@font-face{
+	font-family: "Pacifico";
+	src: url("pacifico/Pacifico.ttf");
+}
+
+body
+{
+	font-family: "Pacifico"; 
+	line-height: 1.88889;
+	color: #000000;
+	background-color: #A9A9A9;
+
+}
+
+h1
+{
+	font-family: "Pacifico";
+	font-size: 500%;
+}
+
+.center
+{
+	margin: 500px;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
+
+.arc 
+{
+	border-radius: 500px;
+    box-shadow:0 0 1em 0.3em #F00,
+                 0 0 1em 0.6em #F80,
+                 0 0 1em 1.3em #FF0,
+                 0 0 1em 1.4em #0F0,
+                 0 0 1em 1.7em #0FF,
+                 0 0 1em 2.4em #00F,
+                 0 0 1em 2.7em #F0F;
+ 
+
+      top:30%;
+      right:30%;
+      width:45%;
+      background-color: #A9A9A9;
+}
+
+.ronde 
+{
+
+	background-image: url(http://www.huismanfoto.eu/Album%20350%20Tenerife%20Paisaje%20Lunar/slides/P1010938%20Tenerife%20Paisaje%20Lunar%2010610.jpg);
+	text-align: center;
+	margin: auto;
+	border-radius: 500px;
+  	border:solid 0.3em #000;
+  	width: 500px;
+  	height:500px;
+}
+
+/*div img
+{
+	align-items: all;
+}*/
